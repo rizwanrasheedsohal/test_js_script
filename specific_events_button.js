@@ -7,6 +7,6 @@
 
  button.innerText = 'Book Now'
  anchor.appendChild(button); 
- anchor.href=`http://localhost:3001/skipbarber?team_id=${1}&cat_ids=${}`;
+ anchor.href=`http://localhost:3001/skipbarber?team_id=${1}`;
 
  document.body.appendChild(anchor) 
