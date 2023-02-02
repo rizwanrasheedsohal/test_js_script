@@ -2,7 +2,7 @@
  // Create a button element
  const button = document.createElement('button')
  const anchor = document.createElement('a')
- const teamId = document.getElementById("trackhero-embed-button-script").getAttribute("team_id");
+ const teamId = document.getElementById("trackhero-all-events-button-script").getAttribute("team_id");
 
  button.innerText = 'Book Now'
  anchor.id = 'trackhero-all-events-button'
